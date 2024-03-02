@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="browser.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saif's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    
+    <div class="container-fluid">
+        
+            <!-- Navbar -->
+            <header class="header-wrapper">
+              <div class="progress-container fixed-top">
+                <div class="progress-bar" id="myBar"></div>
+              </div>
+                <nav class="navbar navbar-expand-lg  fixed-top">
+                    <div class="container">
+                            <!-- logo -->
+                        <a class="navbar-brand" href="#home">
+                            <img style="width: 14rem;" src="White logo - no background.png" alt="Name logo">
+                        </a>
+                        <!-- toggle btn -->
+                        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"  aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="bi bi-three-dots-vertical" ></span>
+                        </button>
+                        <!-- sidebar -->
+                        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header text-white border-bottom ">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                              <a class="navbar-brand" href="#home">
+                                <img style="width: 14rem;" src="White logo - no background.png" alt="Name logo">
+                            </a>
+                            </h5>
+                            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body d-flex justify-content-end align-items-center flex-column flex-lg-row">
+                            <ul class="navbar-nav menu-navbar-nav justify-content-center align-items-center fs-6 flex-grow-1 ">
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="#home" >HOME</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#about" >ABOUT</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#skills">SKILLS</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#services" >SERVICES</a>
+                                </li>
+                                <li class="nav-item ">
+                                  <a class="nav-link" href="#team" >COLLABORATORS</a>
+                                </li>
+                            </ul>
+                                <div class="d-flex flex-coloumn flex-lg-row justify-content-center align-items-center gap-3">
+                                    <a href="#contact" class="contact-btn text-decoration-none px-3 py-1 rounded-4 fw-bolder" >CONTACT</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </nav>
+                
+              </header>
+              <!-- ============Home Section========== -->
+                <section id="home" class="banner-wrapper w-100" >
+                    <div class="container h-100 w-100 d-flex justify-content-end align-items-center flex-column">
+                        <h1 class="text-white ">
+                            <font style="font-size:5rem;">S</font>AIF <font style="font-size:5rem;">S</font>IDDIQUI</h1>
+                        <h4 class="text-white">SCROLL DOWN</h4>
+                    </div>
+                    
+                </section>
+                <!-- ============End Home Section========== -->
+                <!-- ============About Section========== -->
+                <section class="about vh-100 w-100 d-flex justify-content-center" id="about">
+                    <div class="d-flex justify-content-center align-items-center w-75 h-100 flex-column flex-lg-row">
+                        <div class="about-texts w-100 h-100  d-flex justify-content-center align-items-start flex-column mt-md-5 mt-sm-5">
+                            <h2 class="">About Me</h2>
+                            <p>Greetings! I'm Saif Siddiqui, a 19-year-old coder <br> with a genuine passion for turning Ideas into Reality. <br> Navigating the World of WEB DEVELOPMENT!...... <br> I craft Unique, Aesthetic and Immersive solutions for my Clients.
+
+                            </p>
+                        </div> 
+                        <div class="about-photo h-75 ">
+                            <img src="abt-image.jpg" alt="self picture" class="image-fluid h-100 ">
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- ============ End About Section========== -->
+                <section class="skills-wrapper pt-5" id="skills">
+                    <div class="row pt-5">
+
+                        
+                        <h2 class="text-center mt-5">My Skills</h2>
+                        
+                    </div> 
+                    <div class="row ">
+                        <div class="col-lg-4  col-md-6 col-sm-12 d-flex justify-content-center  mt-5">
+                            <a class="card1" href="#skills">
+                                <h3 class="fw-bolder">HTML 
+                                    <i class="fa-solid fa-code card-icons"></i>
+                                </h3>
+                                <p class="small">Being Extremely fluent in HTML I understand that in the world of web development, perfection is not an option; it's the standard. HTML, the backbone of the web, embodies this pursuit, demanding precision in every tag and element</p>
+                                <div class="corner" href="#">
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mt-5">   
+                            <a class="card1" href="#skills">
+                                <h3 class="fw-bolder">CSS 
+                                    <i class="fa-brands fa-css3-alt card-icons" ></i>
+                                </h3>
+                                <p class="small">Crafting the perfect user interface is an art, and CSS is the palette that brings it to life. With attention to detail and a commitment to perfection, each style rule contributes to a seamless and aesthetically pleasing web experience.</p>
+                                <div class="corner" href="#">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mt-5">    
+                            <a class="card1" href="#skills">
+                                <h3 class="fw-bolder">BOOTSTRAP
+                                    <i class="fa-brands fa-bootstrap card-icons"></i>
+                                </h3>
+                                <p class="small">Bootstrap is a powerful framework that empowers developers to create responsive and visually appealing websites, and the pursuit of perfection within Bootstrap involves leveraging its features to create seamless and user-friendly experiences</p>
+                                <div class="corner" href="#">
+                                </div>
+                            </a>
+                        </div>
+                    
+                    
+                    
+                        
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 d-flex justify-content-center">
+                            <a class="card1" href="#skills">
+                                <h3 class="fw-bolder">PROBLEM SOLVING
+                                    <i class="fa-solid fa-gears card-icons "></i>
+                                </h3>
+                                <p class="small">Web development, for me, is a continuous journey of problem-solving mastery, where each bug fixed and every optimization made is a deliberate step towards crafting a flawless online masterpiece.</p>
+                                <div class="corner" href="#">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mt-5 d-flex justify-content-center">    
+                            <a class="card1" href="#skills">
+                                <h3 class="fw-bolder ">C Language 
+                                    <i class="fa-solid fa-star-of-life card-icons"></i>
+                                </h3>
+                                <p class="small">My mastery of the C language indicates a deep understanding and proficiency in low-level programming, memory management, and algorithmic complexities, allowing for the creation of highly efficient and optimized software solutions.</p>
+                                <div class="corner" href="#">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12  mt-5 d-flex justify-content-center">    
+                            <a class="card1" href="#skills">
+                                <h3 class="fw-bolder">SOFT SKILLS
+                                    <i class="fa-solid fa-microphone card-icons"></i>
+                                </h3>
+                                <p class="small">Web development is not just about lines of code; it's about mastering the art of communication, teamwork, and adaptability. My soft skills are finely honed to complement my technical prowess.</p>
+                                <div class="corner" href="#">
+                                </div>
+                            </a>
+                        </div>
+                    
+                </section>
+
+                 <!-- ======= Services Section ======= -->
+                <div id="services" class="services-area area-padding  ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2 class="mt-5">My Services</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <!-- Start Left services -->
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="about-move">
+              <div class="services-details rounded-4">
+                <div class="single-services p-3 " >
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-briefcase"></i>
+                  </a>
+                  <h4 class="mb-4">Expert Coder</h4>
+                  <p>
+                    I've been in the game for 2 years of learning, and I specialize in C language, HTML, CSS and A little bit of JS as well . I enjoy solving complex problems with clean and efficient code. My focus is on creating practical and effective solutions for real-world challenges.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12  col-xs-12">
+            <div class="about-move">
+              <div class="services-details rounded-4">
+                <div class="single-services p-4">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-card-checklist"></i>
+                  </a>
+                  <h4 class="mb-4">Creative Designer</h4>
+                  <p>
+                    a creative designer with a passion for turning ideas into visually stunning realities. I've honed my skills in Frontend Development, UI/UX Designing, etc. <br> I love using design to tell compelling stories and create memorable experiences                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details rounded-4">
+                <div class="single-services p-3">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-play"></i>
+                  </a>
+                  <h4 class="mb-4">Video Editor</h4>
+                  <p>
+                    With 2 years of experience, I take raw gaming footage and turn it into visually compelling and entertaining videos. From epic moments to seamless transitions, my goal is to create content that not only showcases the excitement of gaming but also keeps viewers hooked from start to finish                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details rounded-4">
+                <div class="single-services p-3">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-image"></i>
+                  </a>
+                  <h4 class="mb-4">Photo Editor</h4>
+                  <p>
+                    I specialize in creating eye-catching thumbnails and enhancing photos for maximum impact. Whether it's for Youtube, social media, websites, or promotional materials, my expertise lies in capturing attention through vibrant visuals and compelling design.                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class=" col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details rounded-4">
+                <div class="single-services p-3">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-brightness-high"></i>
+                  </a>
+                  <h4 class="mb-4">Website Analyst</h4>
+                  <p>
+                    I excel in problem-solving skill as well. Whether it's untangling complex issues, identifying efficient solutions, or navigating challenges, I bring a systematic and analytical approach to overcome obstacles and achieve optimal results.                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="text-center pt-5"><a href="Saif's CV.pdf" download class="download">Download CV</a></div>
+        </div>
+      </div>
+                </div><!-- End Services Section -->
+
+                 
+
+
+
+
+                <!-- ==========Team Section================== -->
+                  <div class="team container" id="team">
+                    <div class="row mt-5 pt-5">
+                      <div class="col-lg-4 pt-5">
+                        <h2 class="pt-3">My Collaborators</h2>
+                      </div>
+                    </div>
+                    <div class="row mt-5">
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card text-white ">
+                          <img src="imran.jpg" alt=""  class="team-photo image-fluid">
+                          <div class="overlay">
+                            <h3 class="fw-bolder">Imran Ahmed</h3>
+                            <h5>Photographer</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card text-white ">
+                          <img src="AR.png" alt=""  class="team-photo image-fluid">
+                          <div class="overlay">
+                            <h3 class="fw-bolder">A.R. Rehman</h3>
+                            <h5>Editor</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card text-white ">
+                          <img src="Basit.png" alt=""  class="team-photo image-fluid ">
+                          <div class="overlay">
+                            <h3 class="fw-bolder">Basit Khan</h3>
+                            <h5>Developer</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card text-white ">
+                          <img src="Ayan.jpg" alt=""  class="team-photo image-fluid">
+                          <div class="overlay">
+                            <h3 class="fw-bolder">Ayan Khan</h3>
+                            <h5>Multitasker</h5>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                <!-- ==========End Team Section=============== -->
+                <!-- ==========Contact Section============== -->
+                <section id="contact" class="contact vh-100 pt-5 w-100">
+                  <div class="container ">
+                    <div>
+                      <h2 class="text-center pt-5 ">Contact Me</h2>
+                    </div>
+                    <div class="row justify-content-center pt-5" >
+                      
+                      <div class="col-lg-3">
+                        <div class="info-item d-flex">
+                          <i class="bi bi-geo-alt flex-shrink-0"></i>
+                          <div>
+                            <h4>Location:</h4>
+                            <p>House No. XX, Shyam Nagar, Foy Sagar Road, Ajmer, Rajasthan</p>
+                          </div>
+                        </div>
+                      </div><!-- End Info Item -->
+            
+                      <div class="col-lg-3">
+                        <div class="info-item d-flex">
+                          <i class="bi bi-envelope flex-shrink-0"></i>
+                          <div>
+                            <h4>Email:</h4>
+                            <p>saif.siddiqui1630@gmail.com</p>
+                          </div>
+                        </div>
+                      </div><!-- End Info Item -->
+            
+                      <div class="col-lg-3">
+                        <div class="info-item d-flex">
+                          <i class="bi bi-phone flex-shrink-0"></i>
+                          <div>
+                            <h4>Call:</h4>
+                            <p>+91 9829148312</p>
+                          </div>
+                        </div>
+                      </div><!-- End Info Item -->
+            
+                    </div>
+            
+                    <div class="row justify-content-center mt-4">
+            
+                      <div class="col-lg-9">
+                        <form  role="form" class="email-form">
+                          <div class="row " >
+                            <div class="col-md-6 form-group pe-0">
+                              <input type="text" name="name" class="form-control w-100" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0 pe-0">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                          </div>
+                          <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                          </div>
+                          
+                          <div class="text-center pt-5"><button type="submit">Send Message</button></div>
+                        </form>
+                      </div><!-- End Contact Form -->
+            
+                    </div>
+            
+                  </div>
+                </section><!-- ============= End Contact Section========== -->  
+                <div class="container-fluid">
+                            <footer class="footer-area text-center d-flex justify-content-center flex-column ">
+                                <p style="background-color: var(--btn-color);">Developed by Saif Siddiqui| &copy; 2024 All Rights Reserved.</p>
+                            </footer>
+                </div>
+          </div>     
+          
+          
+          
+
+
+          
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        
+        //When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.height = scrolled + "%";
+        }
+
+        //navbar on scroll
+        const navEl= document.querySelector('.navbar');
+        function fun(){
+          navEl.classlist.remove('navbar-scrolled');
+        }
+        window.addEventListener('scroll',(e) =>{
+            //console.log(e);
+          if (window.scrollY >= 356) {
+            console.log("if"+navEl.classList)
+            navEl.classList.add('navbar-scrolled')
+          }
+          else if (window.scrollY < 356){
+            console.log("else"+navEl.classList)
+            navEl.classList.remove('navbar-scrolled');
+          }
+        });
+        // window.addEventListener('load', () => {
+      	// document.documentElement.scrollTop = 0;
+        // })
+
+
+          
+      </script>
+     
+</body>
+</html>
